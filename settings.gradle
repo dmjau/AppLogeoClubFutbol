@@ -1,0 +1,2 @@
+rootProject.name='logeoSociosPenarol'
+include ':app'

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PEÑAROL</string>
+    <string name="text_user_input">User or Email</string>
+    <string name="text_user_input_form">User</string>
+    <string name="text_mail_input_form">Email</string>
+    <string name="text_password_input">Password</string>
+    <string name="text_password_input_confirm">Confirm Password</string>
+    <string name="text_empty"> </string>
+    <string name="text_btn_login">Login</string>
+    <string name="text_btn_register">Register</string>
+    <string name="text_user_welcome">Bienvenido</string>
+    <string name="text_register_main">No estas registrado?</string>
+    <string name="text_creator">DANTE MARTIN JAUME</string>
+    <string name="text_image_login_ok">Escudo de Penarol</string>
+    <string name="text_welcome_login_ok">BIENVENIDO</string>
+    <string name="text_number_login_ok">Socio Nro.:</string>
+</resources>

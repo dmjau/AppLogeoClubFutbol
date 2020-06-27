@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginOkActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imageView_loginOk"
+        android:layout_width="82dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/escudo_penarol"
+        android:background="@color/colorAccent"
+        android:contentDescription="@string/text_image_login_ok"/>
+
+    <TextView
+        android:id="@+id/textView_welcome_loginok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="@string/text_welcome_login_ok"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_loginOk"
+        app:layout_constraintStart_toStartOf="@+id/imageView_loginOk"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_loginOk"
+        android:textColor="@color/colorSecondaryText"/>
+
+    <TextView
+        android:id="@+id/textView_number_loginok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_number_login_ok"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_memberuser_loginok"
+        app:layout_constraintStart_toStartOf="@+id/textView_memberuser_loginok"
+        app:layout_constraintTop_toBottomOf="@+id/textView_memberuser_loginok" />
+
+    <TextView
+        android:id="@+id/textView_membernumber_loginok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_empty"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView_number_loginok"
+        app:layout_constraintStart_toStartOf="@+id/textView_number_loginok"
+        app:layout_constraintTop_toBottomOf="@+id/textView_number_loginok" />
+
+    <TextView
+        android:id="@+id/textView_memberuser_loginok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_empty"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView_welcome_loginok"
+        app:layout_constraintStart_toStartOf="@+id/textView_welcome_loginok"
+        app:layout_constraintTop_toBottomOf="@+id/textView_welcome_loginok" />
+</androidx.constraintlayout.widget.ConstraintLayout>
